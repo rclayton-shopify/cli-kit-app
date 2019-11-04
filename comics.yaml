@@ -1,0 +1,35 @@
+comic:
+  UPC: "39384-01511"
+  publisher: "Marvel"
+  title: "Amazing Fantasy"
+  issue: 1
+  writers:
+    - "Stan Lee"
+  artists:
+    - "Steve Ditko"
+  release: "1962-08-10"
+
+graphic_novel:
+  ISBN: "978-0606357425"
+  publisher: "DC Comics"
+  title: "Watchmen"
+  writers:
+    - "Alan Moore"
+  artists:
+    - "Dave Gibbons"
+  release: "2014-05-13"
+
+trade-paperback:
+  ISBN: "978-1607066019"
+  publisher: "Image Comics"
+  title: "Saga (Book 1)"
+  collects:
+    - title: "Saga"
+      issues: "01-06"
+    - title: "Saga Christmas Special"
+      issues: "01"
+  writers:
+    - "Brian K Vaughan"
+  artists:
+    - "Fiona Staples"
+  release: "2012-10-10"
