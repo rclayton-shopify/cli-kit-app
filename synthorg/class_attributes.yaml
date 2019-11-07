@@ -1,13 +1,26 @@
-serial:
-  upc: "39384-01511"
+anime_figure:
+  manufacturer: "Max Factory"
+  line: "Figma"
+  series: "Fire Emblem"
+  characters:
+    - "Kamui"
+  sculptors:
+    - "Asai Masaki"
+    - "Satou Naoki"
+    - "Yamaoka Jun"
+  release: "2017-09-20"
+  value: 99.99
+
+comic:
   publisher: "Marvel"
   title: "Amazing Fantasy"
-  issue: 1
+  issue: "15"
   writers:
     - "Stan Lee"
   artists:
     - "Steve Ditko"
   release: "1962-08-10"
+  value: 9999.99
 
 graphic_novel:
   isbn: "978-0606357425"
@@ -18,6 +31,7 @@ graphic_novel:
   artists:
     - "Dave Gibbons"
   release: "2014-05-13"
+  value: 9.99
 
 trade_paperback:
   isbn: "978-1607066019"
@@ -33,3 +47,4 @@ trade_paperback:
   artists:
     - "Fiona Staples"
   release: "2012-10-10"
+  value: 19.99
