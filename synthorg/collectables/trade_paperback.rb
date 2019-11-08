@@ -3,7 +3,6 @@
 # trades are usually a collection of serials
 class TradePaperBack < Comic
   attr_accessor :collected
-  include DisplayValue
 
   def initialize(info)
     @collected = info['collects']

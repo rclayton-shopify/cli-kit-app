@@ -3,7 +3,6 @@
 # longer format comics that are a limited series or just one-offs
 class GraphicNovel < Comic
   attr_accessor :isbn
-  include DisplayValue
 
   def initialize(info)
     @isbn = info['isbn']

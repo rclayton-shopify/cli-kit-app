@@ -1,10 +1,11 @@
 # frozen_string_literal: true
-require '../modules/display_value'
+
+require '../modules/currency_conversion'
 
 # base comic class
 class Comic
   attr_accessor :publisher, :title, :writers, :artists, :release, :issue, :value
-  include DisplayValue
+  include CurrencyConversion
 
   def initialize(info)
     @publisher = info['publisher']

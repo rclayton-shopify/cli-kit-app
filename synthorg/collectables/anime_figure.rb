@@ -3,7 +3,7 @@
 # base comic class
 class AnimeFigure
   attr_accessor :manufacturer, :line, :series, :characters, :sculptors, :value
-  include DisplayValue
+  include CurrencyConversion
 
   def initialize(info)
     @manufacturer = info['manufacturer']
