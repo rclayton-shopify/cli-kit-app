@@ -1,9 +1,9 @@
 # frozen_string_literal: true
 
-require 'minitest/autorun'
+require 'byebug'
 
 # CLI entry point for data manipulation
-class CLI
+class CommandLine
   attr_accessor :collectables
 
   def initialize
@@ -12,7 +12,7 @@ class CLI
 
   def find_all_of_type(type)
     @collectables.select do |item|
-      item.is_a? type
+      item.is_a? type.nil? ? Object : Object.const_get(type)
     end
   end
 
@@ -22,7 +22,7 @@ class CLI
     end
   end
 
-  def get_collection_value(type = Object)
+  def get_collection_value(type = '')
     find_all_of_type(type).reduce(0) do |sum, item|
       sum + item.value
     end

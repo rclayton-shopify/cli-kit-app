@@ -12,9 +12,11 @@ class AnimeFigure
     @characters = info['characters']
     @sculptors = info['sculptors']
     @value = info['value']
+    @release = info['release']
   end
 
   def release_info
-    puts
+    "#{@characters.join(' ')} #{'from ' + @series unless @series.nil?} was released on "\
+    "#{@release} by #{@manufacturer} for #{@line}."
   end
 end

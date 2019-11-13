@@ -14,5 +14,7 @@ module Synthorg
 
     register :Example, 'example', 'synthorg/commands/example'
     register :Help,    'help',    'synthorg/commands/help'
+    register :List,    'list',    'synthorg/commands/list'
+    register :Value,   'value',   'synthorg/commands/value'
   end
 end

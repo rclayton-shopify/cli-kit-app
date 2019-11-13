@@ -18,12 +18,12 @@ class Comic
   end
 
   def creator_info
-    "#{@title} #{@issue unless @issue.empty?} was written by " \
+    "#{@title} #{@issue unless @issue.nil?} was written by " \
     "#{@writers.join(', ')} and illustrated by #{@artists.join(', ')}."
   end
 
   def release_info
-    "#{@title} #{@issue unless @issue.empty?} was released on #{@release}" \
+    "#{@title} #{@issue unless @issue.nil?} was released on #{@release} " \
     "by #{@publisher}."
   end
 end
